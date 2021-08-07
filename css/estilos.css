@@ -48,6 +48,7 @@ input[type="checkbox"] {
 
 /*Contiene párrafo de bienvenida*/
 p {
+  max-width: 100%;
   margin-top: -20px;
   padding: 0px;
   font-size: 17px;
