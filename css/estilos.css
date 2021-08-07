@@ -1,39 +1,36 @@
 /*Fondo*/
 html {
-  font-family: 'glacial indifference';
-  background-color: #2196f3;
-  min-height: 150px;
-  background: url(fondo.png), #2196f3;
+  background-color: #ffffff;
+  min-height: 1000px;
+  font-family: "calibri";
+  background: -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
   background: url(fondo.png),
-    -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
-  background: url(fondo.png), linear-gradient(to left, #2196f3, #009688);
+    linear-gradient(to left, #21f391, #009688);
 }
 
-/*Texto Listado de Personas*/
+/*"Listado de personas*/
 h1 {
-  color: rgb(255, 255, 255);
-  margin-bottom: -10px;
+  color: #049c44;
+  padding: 10px;
 }
 
-h2{
-  font-size: 12px;
-  color: #bddefd;
-}
-
+/*Contenedor de lista y botón*/
 .contenedor {
   max-width: 400px;
-  min-height: 80px;
-  margin: 20px auto;
-  background: white;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
+/*Contiene header*/
 #cabecero {
-  background-color: #3f51b5;
+  height: 150px;
+  background-color: #cefce1;
   text-align: center;
 }
 
+/*Contiene lista con nombres*/
 .elemento {
   min-height: 70px;
   display: flex;
@@ -49,48 +46,57 @@ input[type="checkbox"] {
   margin: 20px;
 }
 
-/*Formularios*/
+/*Contiene párrafo de bienvenida*/
+p {
+  margin-top: -20px;
+  padding: 0px;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+}
+
+/*Formulario*/
 form {
-  height: 80px;
+  margin-top: 10px;
   text-align: center;
-  margin-top: 0px;
+  margin-left: 20px;
 }
 
 /*Botón +*/
 button {
-  margin-top: 5px;
-  min-height: 10px;
-  width: 40px;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  background-color: rgb(0, 140, 255);
+  border-color: transparent;
+  background-color: rgb(1, 139, 93);
   color: rgb(255, 255, 255);
   font-size: 30px;
-  border-width: 0;
 }
 
-/*Cajas de inputs*/
+/*Inputs del form*/
 input[type="text"] {
+  margin-bottom: 20px;
   text-align: center;
-  height: 30px;
-  width: 40%;
-  margin-top: 15px;
+  height: 35px;
+  top: 10px;
   border-radius: 5px;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255);
-  background: #e1f3fc;
-  font-family: 'glacial indifference';
-  font-size: 5px;
-  
+  border-width: 3px; 
+  border-color: aquamarine;
+  font-family: 'calibri';
+  font-weight: normal;
+  font-size: 20px;
+  width: 40%;
 }
 
+/*Onfocus de inputs*/
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #ffffff;
+  box-shadow: inset 0 -3px 0 0 rgb(90, 92, 91);
 }
 
 ::placeholder {
-  font-family: "glacial indifference";
-  color: rgb(0, 140, 255);
-  font-size: 20px;
+  color: rgb(110, 106, 106);
   opacity: 1;
 }

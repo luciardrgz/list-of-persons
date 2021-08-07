@@ -10,7 +10,10 @@
   <body onload="mostrarPersonas()">
     <div class="contenedor" id="cabecero">
       <h1>Listado de personas</h1>
-      <h2>¡Bienvenido! Ingresa un nombre y apellido y luego presiona (+) <br>para agregarlo a la lista a continuación:</h2>
+      <p>
+        ¡Bienvenido! Ingresa un nombre y apellido <br />
+        y luego presiona (+) para agregarlo a la lista a continuación:
+      </p>
     </div>
     <!--ul: Unordered List // li: List Item-->
     <div class="contenedor">
@@ -22,13 +25,13 @@
     </div>
 
     <div class="contenedor">
-        <div style='text-align: center'>
-        <button type='submit' onclick='agregarPersona()'>+</button>
-        </div>
-        <form name= 'forma' data-netlify="true">
-            <input type='text' id='nombre' placeholder='Nombre'/>
-            <input type='text' id='apellido' placeholder='Apellido'/>
-        </form>
+      <div style="text-align: center">
+        <button type="submit" onclick="agregarPersona()">+</button>
+      </div>
+      <form name="forma" data-netlify="true">
+        <input type="text" id="nombre" placeholder="Nombre" />
+        <input type="text" id="apellido" placeholder="Apellido" />
+      </form>
     </div>
     <script src="js/persona.js"></script>
     <script src="js/app.js"></script>
