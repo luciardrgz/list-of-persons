@@ -9,7 +9,7 @@ function mostrarPersonas() {
     console.log(persona);
     texto += `<li>${persona.nombre} ${persona.apellido}</li>`;
   }
-  document.getElementById("personas").innerHTML = texto;
+  document.getElementById("personas").innerHTML = texto
 }
 
 function agregarPersona() {
@@ -21,6 +21,7 @@ function agregarPersona() {
     console.log(persona);
     personas.push(persona);
     mostrarPersonas();
+    document.forms['forma'].reset();
   } else {
     console.log("No hay información para agregar.");
   }

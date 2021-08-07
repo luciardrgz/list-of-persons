@@ -1,8 +1,8 @@
 /*Fondo*/
 html {
+  font-family: 'glacial indifference';
   background-color: #2196f3;
   min-height: 150px;
-  font-family: "glacial indifference";
   background: url(fondo.png), #2196f3;
   background: url(fondo.png),
     -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
@@ -72,14 +72,15 @@ button {
 input[type="text"] {
   text-align: center;
   height: 30px;
-  top: 10px;
+  width: 40%;
+  margin-top: 15px;
   border-radius: 5px;
   border-width: 2px;
   border-color: rgb(255, 255, 255);
   background: #e1f3fc;
   font-family: 'glacial indifference';
-  font-weight: 20;
-  width: 40%;
+  font-size: 5px;
+  
 }
 
 input[type="text"]:focus {
