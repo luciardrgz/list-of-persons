@@ -1,5 +1,6 @@
 /*Fondo*/
 html {
+<<<<<<< HEAD
   background-color: #ffffff;
   min-height: 1000px;
   font-family: "calibri";
@@ -19,10 +20,38 @@ h1 {
   max-width: 400px;
   margin: 50px auto;
   background: rgb(255, 255, 255);
+=======
+  font-family: 'glacial indifference';
+  background-color: #2196f3;
+  min-height: 150px;
+  background: url(fondo.png), #2196f3;
+  background: url(fondo.png),
+    -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+  background: url(fondo.png), linear-gradient(to left, #2196f3, #009688);
+}
+
+/*Texto Listado de Personas*/
+h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: -10px;
+}
+
+h2{
+  font-size: 12px;
+  color: #bddefd;
+}
+
+.contenedor {
+  max-width: 400px;
+  min-height: 80px;
+  margin: 20px auto;
+  background: white;
+>>>>>>> bba9176d0db2376b0804c2ecb4dcbc65effcacee
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
+<<<<<<< HEAD
 /*Contiene header*/
 #cabecero {
   height: 150px;
@@ -31,6 +60,13 @@ h1 {
 }
 
 /*Contiene lista con nombres*/
+=======
+#cabecero {
+  background-color: #3f51b5;
+  text-align: center;
+}
+
+>>>>>>> bba9176d0db2376b0804c2ecb4dcbc65effcacee
 .elemento {
   min-height: 70px;
   display: flex;
@@ -46,6 +82,7 @@ input[type="checkbox"] {
   margin: 20px;
 }
 
+<<<<<<< HEAD
 /*Contiene párrafo de bienvenida*/
 p {
   margin-top: -20px;
@@ -61,10 +98,18 @@ form {
   margin-top: 10px;
   text-align: center;
   margin-left: 20px;
+=======
+/*Formularios*/
+form {
+  height: 80px;
+  text-align: center;
+  margin-top: 0px;
+>>>>>>> bba9176d0db2376b0804c2ecb4dcbc65effcacee
 }
 
 /*Botón +*/
 button {
+<<<<<<< HEAD
   margin-top: 10px;
   height: 50px;
   width: 50px;
@@ -100,3 +145,41 @@ input[type="text"]:focus {
   color: rgb(110, 106, 106);
   opacity: 1;
 }
+=======
+  margin-top: 5px;
+  min-height: 10px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(0, 140, 255);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  border-width: 0;
+}
+
+/*Cajas de inputs*/
+input[type="text"] {
+  text-align: center;
+  height: 30px;
+  width: 40%;
+  margin-top: 15px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  background: #e1f3fc;
+  font-family: 'glacial indifference';
+  font-size: 5px;
+  
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #ffffff;
+}
+
+::placeholder {
+  font-family: "glacial indifference";
+  color: rgb(0, 140, 255);
+  font-size: 20px;
+  opacity: 1;
+}
+>>>>>>> bba9176d0db2376b0804c2ecb4dcbc65effcacee
